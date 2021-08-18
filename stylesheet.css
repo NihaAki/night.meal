@@ -14,7 +14,7 @@
     height: 270PX;  
   }
   
-.h1 span{color:#ff0000;
+h1{color:#ff0000;
 }
 
 
@@ -34,12 +34,4 @@ li{
     float:left;
     font-size:36px;
     padding: 20px;
-}
-
-.section-title{
-border-bottom:2px solid #dee7ec;
-font-size: 28px;
-padding-bottom: 15px;
-margin-bottom: 50px;
-
 }
