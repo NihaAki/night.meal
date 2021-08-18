@@ -27,6 +27,12 @@ div.abc {
 li{
     list-style: none;
     float: left;
+    padding: auto;
+}
 
+.heaer-logo{
+    float:left;
+    font-size:36px;
+    padding: 20px;
 }
 
