@@ -1,21 +1,22 @@
 
-  .HEADER {
+  .header {
     background-color: #ca7a1f;
     height: 90PX;  
   }
 
-  .HEADER {
+  .main {
     background-color: #2593b4;
     height: 600PX;  
   }
 
-  .HEADER {
+  .footer {
     background-color: #10a571;
     height: 270PX;  
   }
   
-H1{COLOR:#FF0000;
+h1{color:#ff0000;
 }
 
-P{COLOR:#0000FF;
+
+p{color:#0000ff;
 }
