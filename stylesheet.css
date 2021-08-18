@@ -1,15 +1,15 @@
 
-  .header {
+  div.header {
     background-color: #ca7a1f;
     height: 90PX;  
   }
 
-  .main {
+  div.main {
     background-color: #2593b4;
     height: 600PX;  
   }
 
-  .footer {
+  div.footer {
     background-color: #10a571;
     height: 270PX;  
   }
