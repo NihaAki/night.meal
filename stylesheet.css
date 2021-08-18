@@ -1,6 +1,6 @@
 
   div.header {
-    background-color: #ca7a1f;
+    background-color: #dae676;
     height: 90PX;  
   }
 
@@ -24,3 +24,9 @@ p{color:#0000ff;
 div.abc {
     text-align: center;
 }
+li{
+    list-style: none;
+    float: left;
+
+}
+
