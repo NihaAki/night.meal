@@ -1,7 +1,12 @@
 
   div.header {
-    background-color: #dae676;
+    background-color: #9e1a1a;
     height: 90PX;  
+  }
+
+  .header-logo{color: blue;
+
+
   }
 
   div.main {
