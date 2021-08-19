@@ -3,16 +3,17 @@
     background-color: #9e1a1a;
     height: 90PX;  
   }
+  .header-logo{color: blue;
+    text-align: center;
 
-  .one { 
+  }
+
+  .world { 
     color: chartreuse;
     font-size: 18px;
+    text-align: center;
   }
 
-  .header-logo{color: blue;
-
-
-  }
 
   div.main {
     background-color: #2593b4;
@@ -33,15 +34,4 @@ p{color:#0000ff;
 
 div.abc {
     text-align: center;
-}
-li{
-    list-style: none;
-    float: left;
-    padding: auto;
-}
-
-.header-logo{
-    float:left;
-    font-size:36px;
-    padding: 20px;
 }
