@@ -4,6 +4,11 @@
     height: 90PX;  
   }
 
+  .one { 
+    color: chartreuse;
+    font-size: 18px;
+  }
+
   .header-logo{color: blue;
 
 
