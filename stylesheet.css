@@ -1,5 +1,5 @@
 
-  div.header {
+  div.header:hober{
     background-color: #9e1a1a;
     height: 190PX;  
   }
@@ -11,11 +11,6 @@
 
   }
 
-.world,.header-logo:hober{
-
-background-color: skyblue;
-
-}
 
 
   .world { 
