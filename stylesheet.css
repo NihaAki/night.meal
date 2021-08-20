@@ -1,11 +1,12 @@
 
   div.header {
     background-color: #9e1a1a;
-    height: 90PX;  
+    height: 190PX;  
   }
-  .header-logo{color: blue;
+  .header-logo{color: rgb(173, 240, 49);
     text-align: center;
     padding: 50px;
+    font-size: 20px;
 
   }
 
@@ -18,7 +19,7 @@
 
   div.main {
     background-color: #2593b4;
-    height: 600PX;  
+    height: 200PX;  
   }
 
   div.footer {
