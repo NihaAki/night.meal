@@ -3,17 +3,19 @@
     background-color: #9e1a1a;
     height: 190PX;  
   }
-  .header-logo{color: rgb(173, 240, 49);
+  .header-logo{color: yellow;
     text-align: center;
     padding: 50px;
-    font-size: 20px;
+    font-size: 60px;
+    border-bottom: seashell;
 
   }
 
   .world { 
     color: chartreuse;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
+    border: red ; 
   }
 
 
