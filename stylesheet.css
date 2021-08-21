@@ -8,12 +8,12 @@
     padding: 50px;
     font-size: 60px;
     border-bottom: seashell;
-
-  }
+ }
 
 
 
   .world { 
+    background-color: red;
     color: chartreuse;
     font-size: 30px;
     text-align: center;
