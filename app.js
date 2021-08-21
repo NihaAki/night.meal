@@ -43,4 +43,7 @@ console.log(document)
 
 console.log(document.getElementsByName('buttton')[0])
 
+document-getElementsByName('button')[0]-addEventListener('click', ()=> {
 
+    window.alert('これは作動していますか？');
+});
