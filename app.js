@@ -23,14 +23,16 @@ if (abc > arg) {
 
 konnichiha(4);
 
-console.log(sample4.color);
-
-//オブジェクト
 const sample4 ={
     color:'pink',
     size:'large',
     aisatsu: () =>{
             console.log('aisatsu');
+
+
+console.log(sample4.color);
+
+//オブジェクト
 
     }
 };
@@ -38,5 +40,7 @@ const sample4 ={
 console.log(window)
 
 console.log(document)
+
+console.log(document.getElementsByName('buttton')[0])
 
 
