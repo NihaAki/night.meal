@@ -1,7 +1,7 @@
 
-  div.header:hober{
-    background-color: #9e1a1a;
-    height: 300PX;  
+ header:hober{
+    background-color: #30b2c4;
+    height: 70PX;  
   }
 
   .header-logo{color: red;
@@ -15,31 +15,22 @@
 
 
   .world { 
-    background-color: blue;
+    background-color: orange;
     color: chartreuse;
     font-size: 30px;
     text-align: center;
     border: red ; 
 
-
-
-  div.main {
-    background-color: #2593b4;
-    height: 200PX;  
   }
 
-  div.footer {
-    background-color: #10a571;
-    height: 270PX;  
+
+  footer{
+
+    font-size: small;
+    background-color: rgb(141, 112, 74);
+
   }
   
-h1{color:#ff0000;
-}
 
+  
 
-p{color:#0000ff;
-}
-
-div.abc {
-    text-align: center;
-}
