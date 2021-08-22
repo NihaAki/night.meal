@@ -1,8 +1,9 @@
 
   div.header:hober{
     background-color: #9e1a1a;
-    height: 190PX;  
+    height: 300PX;  
   }
+
   .header-logo{color: red;
     text-align: center;
     background-color: green;
