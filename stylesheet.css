@@ -1,7 +1,7 @@
 
 header:hober{
     background-color: #30b2c4;
-    height: 70PX;  
+    height: 50PX;  
   }
 
   .header-logo{color: red;
@@ -19,6 +19,7 @@ header:hober{
     background-color: orange;
     color: chartreuse;
     font-size: 30px;
+      
     text-align: center;
     border: red ; 
 
