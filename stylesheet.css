@@ -23,6 +23,8 @@ header:hober{
 
 
   .world { 
+    display: inline-block;
+    display: flex;
     background-color: orange;
     color: chartreuse;
     font-size: 30px;
@@ -31,16 +33,15 @@ header:hober{
 
   }
 
-
-  ul {
-    font-size: 0;
-  }
   .menu {
+    list-style-type: none;
+    display: flex;
     background-color: yellow;
     display: inline-block;
     font-size: 20px;
     width: 25%;
     padding: 5px;
+    list-style-type: none;
   }  
 
 .main_menu{
