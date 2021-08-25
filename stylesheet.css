@@ -31,9 +31,18 @@ header:hober{
 
   }
 
-  .menu{
-    display: inline;
+
+  ul {
+    font-size: 0;
   }
+  li {
+    background-color: #222222;
+    display: inline-block;
+    font-size: 12px;
+    width: 25%;
+  }  
+
+
 
 
   footer{
