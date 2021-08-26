@@ -24,6 +24,7 @@
 .header-logo{
      text-align: center;  
      border: red;
+    margin-top:0px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Courier New', Courier, monospace;
