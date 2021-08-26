@@ -12,13 +12,19 @@
       /* ヘッダーは動いていない可能性があるので、
       もしいらなかったら消そう。 */
 
+      @media screen and (max-width:480px){ 
+      }
+      @media screen and (min-width:1280px){ 
+      }
+
       .header{
         margin: 0px;
         background-color: lightskyblue;
         width: 1000px;
         margin-left: auto;
         margin-right: auto;
-         border-radius:40px;
+         border-radius:50px;
+         height: auto;
       
       }
       
@@ -36,6 +42,7 @@
           padding: 30px; 
           width:80%;
           border-radius:40px;
+          height: auto;
           
         }
       
@@ -53,6 +60,7 @@
           margin-left: auto;
           margin-right: auto;
         border-radius:15px;
+        height: auto;
         
         }
       
@@ -64,6 +72,7 @@
           color: chartreuse;
           width: 400px;
          border-radius:10px;
+         height: auto;
         
           /* border: red ;  */
         }
@@ -81,6 +90,7 @@
           justify-content:space-evenly;
           list-style-type: none;
          border-radius:30px;
+
         
         }  
       
@@ -96,6 +106,7 @@
           vertical-align: middle;
           width:190px;
           border-radius:20px;
+          height: auto;
           
       
       
@@ -115,9 +126,7 @@
         }
         
          
-      @media screen and (max-width:480px){
-        
-      }
+   
       
       .cat{
       
@@ -133,6 +142,7 @@
       
       
       background-color: lightsteelblue;
+      height: 500px;
       
       }
       
