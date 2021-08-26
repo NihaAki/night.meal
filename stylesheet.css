@@ -88,7 +88,10 @@
     float: left;
     
     background-color: wheat;
-    padding: 5px;
+    padding-top: auto ;
+     padding-left: auto ;
+     padding-right: auto ;
+     padding-bottom: auto ;
 
 
   }
