@@ -12,126 +12,127 @@
       /* ヘッダーは動いていない可能性があるので、
       もしいらなかったら消そう。 */
 
-.header{
-  margin: 0px;
-  background-color: lightskyblue;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-   border-radius:40px;
-
-}
-
-.header-logo{
-     text-align: center;  
-     border: red;
-    margin-top:0px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: 900; 
-    background-color: lightgreen;
-    color:brown;
-    padding: 30px; 
-    width:80%;
-    border-radius:40px;
-    
-  }
-
-.header-list{
-    
-   
-    text-align: center;
-  
-    font-size: 35px;
-    font-weight: 600;
-    background-color: green;
-    color: red;
-    padding: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  border-radius:15px;
-  
-  }
-
-.world { 
-    
-    text-align: center;
-    font-size: 30px;
-    background-color: orange;
-    color: chartreuse;
-    width: 400px;
-   border-radius:10px;
-  
-    /* border: red ;  */
-  }
-
-.menu {
-    
-    float: none;
-    text-align: center;
-    font-size: 18px;
-   background-color: sandybrown;
-    padding: 20px;
-    padding-right: auto;
-    padding-left: auto;
-    display: flex;
-    justify-content:space-evenly;
-    list-style-type: none;
-   border-radius:30px;
-  
-  }  
-
-  .first{
-  
-    float: left;
-    
-    background-color: wheat;
-    padding-top: auto ;
-     padding-left: auto ;
-     padding-right: auto ;
-     padding-bottom: auto ;
-    virchal-align: middle;
-    width:190px;
-    border-radius:20px;
-    
-
-
-  }
-
-.main_menu{
-  
-  font-size:15px;
-  display: flex;
-    padding: 10px;
- 
-  }
-
-.footer{
-    font-size: small;
-    background-color: red;
-  }
-  
-   
-@media screen and (max-width:480px){
-  
-}
-
-.cat{
-
-  background-color: lightskyblue;
-
-}
-.dog{
-
-  background-color: lightgoldenrodyellow;
-}
-
-.main{
-
-
-background-color: lightsteelblue;
-
-}
+      .header{
+        margin: 0px;
+        background-color: lightskyblue;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+         border-radius:40px;
+      
+      }
+      
+      .header-logo{
+           text-align: center;  
+           border: red;
+          margin-top:0px;
+          margin-left: auto;
+          margin-right: auto;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 30px;
+          font-weight: 900; 
+          background-color: lightgreen;
+          color:brown;
+          padding: 30px; 
+          width:80%;
+          border-radius:40px;
+          
+        }
+      
+      .header-list{
+          
+         
+          text-align: center;
+        
+          font-size: 35px;
+          font-weight: 600;
+          background-color: green;
+          color: red;
+          padding: 30px;
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+        border-radius:15px;
+        
+        }
+      
+      .world { 
+          
+          text-align: center;
+          font-size: 30px;
+          background-color: orange;
+          color: chartreuse;
+          width: 400px;
+         border-radius:10px;
+        
+          /* border: red ;  */
+        }
+      
+      .menu {
+          
+          float: none;
+          text-align: center;
+          font-size: 18px;
+         background-color: sandybrown;
+          padding: 20px;
+          padding-right: auto;
+          padding-left: auto;
+          display: flex;
+          justify-content:space-evenly;
+          list-style-type: none;
+         border-radius:30px;
+        
+        }  
+      
+        .first{
+        
+          float: left;
+          
+          background-color: wheat;
+          padding-top: auto ;
+           padding-left: auto ;
+           padding-right: auto ;
+           padding-bottom: auto ;
+          vertical-align: middle;
+          width:190px;
+          border-radius:20px;
+          
+      
+      
+        }
+      
+      .main_menu{
+        
+        font-size:15px;
+        display: flex;
+          padding: 10px;
+       
+        }
+      
+      .footer{
+          font-size: small;
+          background-color: red;
+        }
+        
+         
+      @media screen and (max-width:480px){
+        
+      }
+      
+      .cat{
+      
+        background-color: lightskyblue;
+      
+      }
+      .dog{
+      
+        background-color: lightgoldenrodyellow;
+      }
+      
+      .main{
+      
+      
+      background-color: lightsteelblue;
+      
+      }
+      
