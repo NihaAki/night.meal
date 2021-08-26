@@ -70,7 +70,7 @@
     
     float: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
    background-color: sandybrown;
     padding: 20px;
     padding-right: auto;
@@ -78,6 +78,8 @@
     display: flex;
     justify-content:space-evenly;
     list-style-type: none;
+   border-radius:30px;
+  
   }  
 
   .first{
