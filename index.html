@@ -1,126 +1,123 @@
-/* ・css内の順番を決めてしまったほうが今後わかりやすいかも */
-/* ・とりあえず、書き込んだ後に順番を変えれば大丈夫。
-  最初から順番を気にすると進まなくなる。 */
-  /* 1 display 2 text-align 3 font-size 4 font-waithg
-  5 background-color 6 color 7 padding 8 other */
-  /* ・随時、上の順番は変えていこう。 */
+<!DOCTYPE html>
+<html lang="jp">
+    <head> 
+        <!-- <link rel="stylesheet" media="all" type="text/css"
+        href="https://nihaaki.github.io/night.meal.github.io/stylesheet.css"> -->
+        <!-- ↓オフラインCSS用のリンク↓ -->
+        <link rel="stylesheet" media="all" type="text/css"
+        href="stylesheet.css">
+        
+        <meta name="viewprt" content="width.initial-scale=1">
 
 
-  /* .header:hober{
-   
-  } */
-      /* ヘッダーは動いていない可能性があるので、
-      もしいらなかったら消そう。 */
+        <title>HomePage</title>
+    </head>
 
-.header{
-  margin: 0px;
-  background-color: lightskyblue;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.header-logo{
-     text-align: center;  
-     border: red;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: 900; 
-    background-color: lightgreen;
-    color:brown;
-    padding: 30px; 
-    width:80%;
+    <body>
+        <div class="header">
+        <div class="header-logo">
+            PASTRY BOUTIQUE <br> & <br> DELICATECEN <br> COMMUNICATION SYSTEM
+        </div>
+        <div class="header-list">
+            <div class="menu">
+            
+                <div class="first cat" ><a href="https://app.tablesolution.com/#/login">Table<br>Solution</a></div>
+                <div class="first dog"><a href="https://restaurants.tokyo.park.hyatt.co.jp/pbq.html">PASTRY<br>BOUTIQUE<br> OFFICIAL</a></div>
+                <div class="first cat"><a href="https://restaurants.tokyo.park.hyatt.co.jp/dts.html">DELICATESSEN<br>OFFICHAL</a></div>
+                <div class="first dog"><a href="https://restaurant.ikyu.com/rsOwner/login">一休管理画面</a></div>
+                <div class="first cat"><a href="https://production.tablesolution.com/">Tablecheck<br>管理画面</a></div>
+       
+            </div>
+        </div>
     
-  }
-
-.header-list{
     
-   
-    text-align: center;
-  
-    font-size: 35px;
-    font-weight: 600;
-    background-color: green;
-    color: red;
-    padding: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  
+        
 
-   
-  
+
     
-  }
-
-.world { 
     
-    text-align: center;
-    font-size: 30px;
-    background-color: orange;
-    color: chartreuse;
-    width: 400px;
-  
-    /* border: red ;  */
-  }
-
-.menu {
     
-    float: none;
-    text-align: center;
-    font-size: 20px;
-   background-color: sandybrown;
-    padding: 20px;
-    padding-right: auto;
-    padding-left: auto;
-    display: flex;
-    justify-content:space-evenly;
-    list-style-type: none;
-  }  
+    </div>
 
-  .first{
-  
-    float: left;
     
-    background-color: wheat;
-    padding: 5px;
+        <div class="main">
+        
+        <ul class="main_menu">
+            <div class="world"><a href="https://google.com">引き継ぎノート</a></div>
+            <hr>
+            <div class="world"><a href="https://google.com">現在販売中のプラン</a></div>
+            <hr>
+            <div class="world"><a href="https://google.com">資料一覧</a></div>
+            <hr>
+            <div class="world"><a href="https://google.com">引き継ぎノート</a></div>
+            
+
+        </ul>
+        
+        <h3>作成用のURL</h3>
+            <p><a href="https://developer.mozilla.org/ja/docs/Web">MDN homepage</a></p>
+            <p></p>
+            <p></p>
+            <p></p>
+
+        </div>
 
 
-  }
+         <div class="footer">
 
-.main_menu{
-  display: flex;
-    padding: 10px;
- 
-  }
-
-.footer{
-    font-size: small;
-    background-color: red;
-  }
-  
-   
-@media screen and (max-width:480px){
-  
-}
-
-.cat{
-
-  background-color: lightskyblue;
-
-}
-.dog{
-
-  background-color: lightgoldenrodyellow;
-}
-
-.main{
+       <li>購入データを記録するときは必ず保存をするようにお願いいたします。</li>
+        <li>データの消去をする場合は、別の画面から申請が必要となります。</li>
+         <li>入力したデータを更新したい場合は<a href="https://www.yahoo.co.jp">こちら</a>を押してください。</li>
+        </div>
+        
+<!--  <h1>こちらの用紙は必ず<SPAN>明日まで</SPAN>に提出してください。</h1></font>
+        <p>一つ目の段落です</p>
 
 
-background-color: lightsteelblue;
+<h2><font color="#0000ff">sample1</h2></font>
+         <p><font text-align: center;>二つ目の段落です</font></p>
+         <ul><font color="#10a571">
+</div> -->      
+         <!-- <div class="abc">これは真ん中ですか？</div> -->
 
-}
+         <!-- <div>
+
+         <div class="contact-form">
+            <h4 class="section-title">お問い合わせ</h4>
+            <p>メールアドレス</p>
+            <input>
+
+            <p>お問い合わせ内容</p>
+            <textarea></textarea>
+
+            <p>入力してください</p>
+            <input class="contact-submit" type="submit" value="">
+            </div>
+         </div> -->
+            
+        
+
+         <!-- <div class="time">この段落を作ることに意味がある</div>
+        <input style="border: 2px;">これは有効なのか>
+            <h3>sample2</h3>
+            <p>三つ目の段落です</p>
+            <p>三つ目の段落です</p>
+            コメントをはさんだりしちゃって
+
+                <h4>これを編集していこう</h4>
+                <P><a href="https://www.GOOGLE.com">GOOGLE</a></P>
+                <P><a href="https://www.yahoo.co.jp/">yahoo</a></P>
+                <P><a href="HomePage.html">ホームページへ</a></P>
+                <P><A HREF="https://nihaaki.github.io/night.meal.github.io/">
+                    これはこのページへの繰り返し！</A></P> -->
+      
+            <!--    <IMG SRC="sample1.JPG">  -->
+                
+            <!-- <p><font color_"#82ee32">インターネットにつながっているか<br>
+            確認しよう！</p> -->
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
