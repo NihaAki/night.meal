@@ -58,3 +58,6 @@ document-getElementsByName('button')[0]-addEventListener('click', ()=> {
 
     window.alert('これは作動していますか？');
 });
+
+const myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
