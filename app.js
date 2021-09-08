@@ -58,15 +58,20 @@ window.onload = function(){
     document.getElementById("currentDate").innerHTML = y+"年"+m+"月"+d+"日("+yb+")";
     }
 
-window.onload = function(){
-var jikan = new Date();
-var h = jikan.gethours();
-var mi = jikan.getminutes();
-var se = jikan.getsecond();
 
-document.getElementById("currenttime").innerHTML=h+mi+se;
 
-}
+    $(function() {
+        $('html,body').animate({ scrollTop: 0 }, '1');
+    });
+// window.onload = function(){
+// var jikan = new Date();
+// var h = jikan.gethours();
+// var mi = jikan.getminutes();
+// var se = jikan.getsecond();
+
+// document.getElementById("currenttime").innerHTML=h+mi+se;
+
+// }
 
 // window.onload = function(){
 // alert("ページの更新が完了しました");
