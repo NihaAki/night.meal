@@ -68,6 +68,6 @@ document.getElementById("currenttime").innerHTML=h+mi+se;
 
 }
 
-window.onload = function(){
-alert("ページの更新が完了しました");
-}
+// window.onload = function(){
+// alert("ページの更新が完了しました");
+// }
