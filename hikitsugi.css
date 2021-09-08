@@ -1,0 +1,115 @@
+/* ーーーーーーベースのシートーーーーーー */
+
+.header{
+    display: block;
+    margin: 0px;    
+    background-color:lightgreen ;
+    width: 100%;
+    position:fixed;
+    margin-bottom:10px;
+    height: 250 px    
+  }
+
+  .main{
+    /* background-color: lightsteelblue; */
+  background: linear-gradient(lightblue ,lightblue,lightblue,blue);
+  
+    height: 2000px;
+    padding-top:170px;
+    padding-bottom: 20px;
+  }      
+
+  /* ーーーーーーheader枠ーーーーーー */
+
+.header-logo{
+    display: block;
+    text-align: center;  /* stylesheetをコピーをすること */
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: auto;
+    font-weight: 900; 
+    background:linear-gradient(to right, fuchsia,pink,fuchsia);
+    color:green;
+    padding: 15px; 
+    padding-top:5px;
+    width:70%;
+    border-radius:40px;
+    height: 60px;      
+  }
+
+  .top_menu {
+    font-size: 15px;
+    display: flex;
+    float: none;
+    text-align: center;
+    font-size: auto;
+    background-color: rgba(31, 107, 69, 0.548);
+    padding: 5px;
+    padding-right: auto;
+    padding-left: auto;
+    justify-content:space-evenly;
+    list-style-type: none;
+    /* border-radius:30px; */
+    height: 60px;
+    
+  }
+  
+  .first{
+    float: left; 
+    background-color:lightsalmon;
+    padding:10px ;
+    vertical-align: middle;
+    width:150px;
+    border-radius:20px;
+    height: 50spx;    
+  }
+  
+  .cat{      
+    background: linear-gradient(skyblue,lightgoldenrodyellow)
+  }
+  
+  .dog{
+    background: linear-gradient(lightgoldenrodyellow,skyblue)
+  }
+
+
+
+/* ーーーーーーmain枠ーーーーーー */
+
+h1{
+
+text-align: center;
+
+}
+
+.keijiban{
+
+line-height: 5px;
+
+}
+
+p{
+line-height: 5px;
+
+}
+
+.inu{
+font-size: 5px;
+    line-height:5px;
+}
+
+/* ーーーーーーfotter枠ーーーーーー */
+
+/* ーーーーーーohter systemーーーーーー */
+
+      
+@media screen and (max-width:480px){ 
+}
+@media screen and (min-width:1280px){ 
+}
+
+
+ /* ーーーーーーmemoーーーーーー */
