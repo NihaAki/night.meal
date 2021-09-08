@@ -1,15 +1,8 @@
-/* 
-・css内の順番を決めてしまったほうが今後わかりやすいかも
-・とりあえず、書き込んだ後に順番を変えれば大丈夫。
-  最初から順番を気にすると進まなくなる。
-  1 display 2 text-align 3 font-size 4 font-waithg
-  5 background-color 6 color 7 padding 8 other
-  ・随時、上の順番は変えていこう。 */
-
-
-
+/* ーーーーーーベースのシートーーーーーー */
 .body{
 margin:0px;
+padding: 0px;
+outline: 0px;
 }
 
 .header{
@@ -21,7 +14,25 @@ margin:0px;
   margin-bottom:10px;
   height: 250 px    
 }
-      
+
+.main{
+  background-color: lightsteelblue;
+  height: 2000px;
+  border-radius:30px;
+  padding-top:150px;
+  padding-bottom: 20px;
+}      
+
+.footer{
+  text-align: right;
+  font-size: small;
+  background-color: red;
+  border-radius: 40px;
+}
+
+
+/* ーーーーーーheader枠ーーーーーー */
+
 .header-logo{
   display: block;
   text-align: center;  
@@ -34,9 +45,10 @@ margin:0px;
   background-color: green;
   color:brown;
   padding: 15px; 
+  padding-top:5px;
   width:80%;
   border-radius:40px;
-  height: 70px;      
+  height: 60px;      
 }
       
 .top_menu {
@@ -52,19 +64,9 @@ margin:0px;
   justify-content:space-evenly;
   list-style-type: none;
   border-radius:30px;
-  height: 90px;
+  height: 60px;
 }
 
-.world { 
-  text-align: center;
-  font-size: 25px;
-  background-color: orange;
-  color: chartreuse;
-  width: 400px;
-  border-radius:10px;
-  height: auto;      
-}
-         
 .first{
   float: left; 
   background-color: wheat;
@@ -72,23 +74,9 @@ margin:0px;
   vertical-align: middle;
   width:150px;
   border-radius:20px;
-  height: 65spx;    
+  height: 50spx;    
 }
-      
-.main_menu{        
-  font-size:15px;
-  padding:10px;
-  background-color: blueviolet;     
-}
-      
-.footer{
-  text-align: right;
-  font-size: small;
-  background-color: red;
-  border-radius: 40px;
- 
-}
-           
+
 .cat{     
   background-color: lightskyblue;
 }
@@ -96,45 +84,68 @@ margin:0px;
 .dog{
   background-color: lightgoldenrodyellow;
 }
-      
-.main{
-  background-color: lightsteelblue;
-  height: 2000px;
-  border-radius:30px;
-  padding-top:210px;
-  padding-bottom: 20px;
-}
+
+
+/* ーーーーーーmain枠ーーーーーー */
 
 .BBB{
 background-color: chartreuse;
 text-align: center;
-
+font-weight: 800;
 }
 
-h3{
+.main_menu{        
+  font-size:15px;
+  padding:10px;
+  background-color: blueviolet;     
+}
 
+.world { 
+  text-align: center;
+  font-size: 25px;
+  background-color: orange;
+  color: chartreuse;
+  width: 300px;
+  border-radius:10px;
+  height: auto;      
+}
+         
+h2{
+font-size: 25px;
   text-align: center;
 }
 
+h3{
+text-align: center;
+font-size: 20px;
+}
+      
 img{
-
-
   height: 200px;
   width: 200px;
-  padding: 10px;
-
-
-
+  padding: 10px
 }
 
+/* ーーーーーーfotter枠ーーーーーー */
 
-
+/* ーーーーーーohter systemーーーーーー */
 
       
 @media screen and (max-width:480px){ 
 }
 @media screen and (min-width:1280px){ 
 }
+
+/* ーーーーーーmemoーーーーーー */
+
+/* 
+・css内の順番を決めてしまったほうが今後わかりやすいかも
+・とりあえず、書き込んだ後に順番を変えれば大丈夫。
+  最初から順番を気にすると進まなくなる。
+  1 display 2 text-align 3 font-size 4 font-waithg
+  5 background-color 6 color 7 padding 8 other
+  ・随時、上の順番は変えていこう。 */
+
 /* CSSを各順番リスト
 1 display
 2 list-style
