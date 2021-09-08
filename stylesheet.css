@@ -99,7 +99,7 @@ margin:0px;
       
 .main{
   background-color: lightsteelblue;
-  height: 00px;
+  height: 2000px;
   border-radius:30px;
   padding-top:210px;
   padding-bottom: 20px;
@@ -110,6 +110,26 @@ background-color: chartreuse;
 text-align: center;
 
 }
+
+h3{
+
+  text-align: center;
+}
+
+img{
+
+
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+
+
+
+}
+
+
+
+
       
 @media screen and (max-width:480px){ 
 }
