@@ -7,7 +7,7 @@ outline: 0px;
 
 .header{
   display: block;
-  margin: 10px;    
+  margin: 15px;    
   background-color:aliceblue ;
   width: 100%;
   position:fixed;
@@ -95,7 +95,7 @@ background: linear-gradient(lightblue ,lightblue,lightblue,blue);
 background-color: yellow;
 text-align: center;
 font-weight: 800;
-font-size: 20px;
+font-size: 25px;
 }
 
 .main_menu{        
