@@ -18,7 +18,7 @@ outline: 0px;
 .main{
   /* background-color: lightsteelblue; */
 background: linear-gradient(lightblue ,lightblue,lightblue,blue);
-
+  width: 100%
   height: 2000px;
   padding-top:170px;
   padding-bottom: 20px;
