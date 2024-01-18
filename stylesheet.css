@@ -42,7 +42,8 @@ background: linear-gradient(lightblue ,lightblue,lightblue,blue);
   margin-bottom: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: auto;
-  font-weight: 900; 
+  font-weight: 900;
+  font-size: 15px
   background:linear-gradient(to right, fuchsia,pink,fuchsia);
   color:green;
   padding: 15px; 
