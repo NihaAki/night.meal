@@ -107,12 +107,12 @@ font-size: 25px;
 .world { 
   text-align: center;
   font-size: 25px;
-  background-color: orange;
+  background-color: #ffc9c9e8;
   color: chartreuse;
   border-radius:10px;
   height: auto;
-  padding-right: 10PX;
-  padding-left: 10PX;
+  padding-right: 120PX;
+  padding-left: 120PX;
   
 }
          
