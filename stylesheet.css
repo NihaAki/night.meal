@@ -110,7 +110,10 @@ font-size: 25px;
   background-color: orange;
   color: chartreuse;
   border-radius:10px;
-  height: auto;      
+  height: auto;
+  padding-right: 10PX;
+  padding-left: 10PX;
+  
 }
          
 .h2{
