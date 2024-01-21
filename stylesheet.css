@@ -97,6 +97,12 @@ font-size: 25px;
   text-align: center;
   background-color: #2be2d68f;     
 }
+.second_menu{        
+  font-size:15px;
+  padding:10px;
+  text-align: center;
+  background-color: #d6ff7b8f;     
+}
 
 .world { 
   text-align: center;
@@ -109,7 +115,19 @@ font-size: 25px;
   padding-left: 10PX;
   
 }
-         
+
+.bonbon { 
+  text-align: center;
+  font-size: 25px;
+  background-color:   #ff8686db;
+  color: chartreuse;
+  border-radius:10px;
+  height: auto;
+  padding-right: 10PX;
+  padding-left: 10PX;
+  
+}
+
 .h2{
 font-size: 25px;
   text-align: center;
