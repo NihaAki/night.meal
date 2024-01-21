@@ -8,7 +8,7 @@ outline: 0px;
 .header{
   display: block;
   margin: 0px;    
-  background-color:aliceblue ;
+  background: radial-gradient(#bffff0, aliceblue, #bffff0);
   width: 100%;
   position:fixed;
   margin-bottom:10px;   
@@ -16,7 +16,7 @@ outline: 0px;
 
 .main{
   /* background-color: lightsteelblue; */
-background: linear-gradient(lightblue ,#29e1ee,lightblue,#29e1ee);
+background: linear-gradient(lightblue , #29e1ee ,lightblue, #29e1ee);
   height: 2000px;
   padding-top:170px;
   padding-bottom: 20px;
