@@ -95,7 +95,10 @@ font-size: 25px;
   font-size:15px;
   padding:10px;
   text-align: center;
-  background-color: #2be2d68f;     
+  background-color: #2be2d68f;    
+  overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden
 }
 .second_menu{        
   font-size:15px;
