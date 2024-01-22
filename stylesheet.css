@@ -27,7 +27,9 @@ background: linear-gradientlinear-gradient(lightblue , #33ffff5e ,lightblue, #33
   font-size: small;
   background-color:lightgray;
 }
-
+.basepadding{
+  padding:20px;
+}
 
 /* ーーーーーーheader枠ーーーーーー */
 
