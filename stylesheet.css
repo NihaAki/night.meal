@@ -49,6 +49,9 @@ background: linear-gradient(lightblue , #29e1ee ,lightblue, #29e1ee);
 }
       
 .top_menu {
+   overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden
   font-size: 15px;
   font-weight: 900;
   display: flex;
@@ -96,9 +99,7 @@ font-size: 25px;
   padding:10px;
   text-align: center;
   background-color: #2be2d68f;    
-  overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden
+ 
 }
 .second_menu{        
   font-size:15px;
