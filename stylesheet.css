@@ -16,7 +16,7 @@ outline: 0px;
 
 .main{
   /* background-color: lightsteelblue; */
-background: linear-gradient(lightblue , #29e1ee ,lightblue, #29e1ee);
+background: linear-gradientlinear-gradient(lightblue , #33ffff5e ,lightblue, #33ffff5e,lightblue, #33ffff5e,lightblue, #33ffff5e);
   height: 2500px;
   padding-top:170px;
   padding-bottom: 20px;
@@ -88,7 +88,7 @@ background: linear-gradient(lightblue , #29e1ee ,lightblue, #29e1ee);
 /* ーーーーーーmain枠ーーーーーー */
 
 .BBB{
-background-color: yellow;
+background-color: #8bff7d;
 text-align: center;
 font-weight: 800;
 font-size: 25px;
@@ -98,7 +98,7 @@ font-size: 25px;
   font-size:15px;
   padding:10px;
   text-align: center;
-  background-color: #2be2d68f;    
+  background: radial-gradient(#f7f7f7, #75e4ff, #c8ff44);
  
 }
 .second_menu{        
