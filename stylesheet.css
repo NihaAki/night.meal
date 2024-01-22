@@ -51,7 +51,7 @@ background: linear-gradientlinear-gradient(lightblue , #33ffff5e ,lightblue, #33
 .top_menu {
    overflow: hidden;
     overflow-x: hidden;
-    overflow-y: hidden
+    overflow-y: hidden;
   font-size: 15px;
   font-weight: 900;
   display: flex;
