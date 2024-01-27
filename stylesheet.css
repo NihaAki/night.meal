@@ -8,7 +8,7 @@ outline: 0px;
 .header{
   display: block;
   margin: 0px;    
-  background: radial-gradient(#bffff0, aliceblue, #bffff0);
+  background: radial-gradient(#ff8400, #ffc07b, #ddefff,#66ddf6, #63b5fd, #0b8afb);
   width: 100%;
   position:fixed;
   margin-bottom:10px;   
@@ -16,7 +16,7 @@ outline: 0px;
 
 .main{
   /* background-color: lightsteelblue; */
-  background: linear-gradient(lightblue,skyblue);
+  background: linear-gradient(#85b586,#85b586);
   height: 2500px;
   padding-top:170px;
   padding-bottom: 20px;
@@ -79,11 +79,11 @@ outline: 0px;
 }
 
 .cat{      
-  background: linear-gradient(#ff8dfe,#fffdad);
+  background: linear-gradient(#eaedac,#89a0ff);
 }
 
 .dog{
-  background: linear-gradient(#fffdad,#ff8dfe);
+  background: linear-gradient(#89a0ff,#eaedac);
 }
 
 
