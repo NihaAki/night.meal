@@ -1,20 +1,21 @@
 /* ーーーーーーベースのシートーーーーーー */
 .body{
-  margin:0px;
-  padding: 0px;
-  outline: 0px;
+margin:0px;
+padding: 0px;
+outline: 0px;
 }
 
 .header{
   display: block;
   margin: 0px;    
-  background: radial-gradient(#ff8400, #ffc07b, #ddefff,#66ddf6, #63b5fd, #0b8afb);
+  background: radial-gradient(#bffff0, aliceblue, #bffff0);
   width: 100%;
   position:fixed;
   margin-bottom:10px;   
 }
 
 .main{
+  /* background-color: lightsteelblue; */
   background: linear-gradient(lightblue,skyblue);
   height: 2500px;
   padding-top:170px;
@@ -50,18 +51,19 @@
 }
       
 .top_menu {
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
+   overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
   font-size: 15px;
   font-weight: 900;
   display: flex;
   float: none;
   text-align: center;
-  background: linear-gradient(#85b586,#85b586);
+  background-color: #92ff8d78;
   padding: 5px;
   justify-content:space-evenly;
   list-style-type: none;
+  /* border-radius:30px; */
   height: 60px;
   
 }
@@ -71,17 +73,18 @@
   background-color:lightsalmon;
   padding:10px ;
   vertical-align: middle;
-  width:200px;
+  width:150px;
   border-radius:20px;
   height: 50spx;    
 }
 
 .cat{      
-  background: linear-gradient(#eaedac,#89a0ff);
+  background: linear-gradient(#ff8dfe,#fffdad);
 }
 
 .dog{
-   background: linear-gradient(#89a0ff,#eaedac);
+  background: linear-gradient(#fffdad,#ff8dfe);
+}
 
 
 /* ーーーーーーmain枠ーーーーーー */
@@ -97,7 +100,7 @@ font-size: 25px;
   font-size:15px;
   padding:10px;
   text-align: center;
-  background: radial-gradient(#89a0ff,#5d72c9);
+  background: radial-gradient(#f7f7f7, #75e4ff, #c8ff44);
  
 }
 .second_menu{        
@@ -204,5 +207,3 @@ font-size: 20px;
 17 white-space
 18 ohter text 
 19 content  */
-
-
