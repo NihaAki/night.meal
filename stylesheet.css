@@ -137,6 +137,8 @@ font-size: 25px;
 .pbqitem{
   background-color: #eef288;
   text-align: center;
+   margin-left: auto;
+    margin-right: auto;
 
 
 }
