@@ -70,14 +70,14 @@ outline: 0px;
 
 .first{
   float: left; 
-  background-color:lightsalmon;
+  background-color: #ff6e6e;
   padding:10px ;
   vertical-align: middle;
   width:150px;
   border-radius:20px;
   height: 50spx;    
 }
-
+/*
 .cat{      
   background: linear-gradient(#eaedac,#89a0ff);
 }
@@ -85,7 +85,7 @@ outline: 0px;
 .dog{
   background: linear-gradient(#89a0ff,#eaedac);
 }
-
+*/
 
 /* ーーーーーーmain枠ーーーーーー */
 
