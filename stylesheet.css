@@ -12,6 +12,7 @@ outline: 0px;
   width: 100%;
   position:fixed;
   margin-bottom:10px;   
+  z-index: 1;
 }
 
 .main{
