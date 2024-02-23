@@ -254,6 +254,12 @@ details[open] .details-content {
   }
 }
 
+p.hover-sample:hover{
+color: red;
+  font-size:20px;
+  font-weight:bold;
+  
+}
 
 
 
