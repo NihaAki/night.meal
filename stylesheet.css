@@ -261,7 +261,10 @@ color: red;
   
 }
 
-
+.scroll{
+  height: 80px;
+  overflow: auto;
+}
 
 /* ーーーーーーmemoーーーーーー */
 
