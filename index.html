@@ -365,6 +365,55 @@
     
         </div>
 
+
+ <div class="materbox1">
+      <div class="outmater">
+        <div class="inmater"><span class="change_per">50%</span></div>
+      </div>
+      <p style="color: tomato; background-color: white; padding: 7px; position: relative; width: fit-content;
+      margin: 0 auto;">＊幅調節バー＊</p>
+      <input class="width_change1" type="range" name="" value="50">
+      <div class="outmater">
+        <div class="inmater2"><span class="change_per2">50%</span></div>
+      </div>
+    </div>
+    <script type="text/javascript" defer>
+      {
+        const inmater = document.querySelector('.inmater');
+        const inmater2 = document.querySelector('.inmater2');
+
+        const width_change = document.querySelector('.width_change1');
+        const change_per = document.querySelector('.change_per');
+        const change_per2 = document.querySelector('.change_per2');
+
+        let changeWidth = 0;
+
+        width_change.addEventListener('input', () => {
+          changeWidth = event.target.value;
+          inmater.style.width = changeWidth + '%';
+          inmater2.style.width = changeWidth + '%';
+
+          change_per2.textContent = change_per.textContent = `${changeWidth}` + '%';
+
+          if (changeWidth >= 80) {
+            change_per.textContent = '80%';
+          }
+          else {
+            change_per.textContent = change_per.textContent = `${changeWidth}` + '%';
+          }
+          if (changeWidth > 98 ) {
+            inmater2.style.borderRadius = '17px';
+          }
+          else {
+            inmater2.style.borderRadius = '17px 0 0 17px';
+          }
+        });
+      }
+    </script>
+
+
+
+    
 <!--     <h2>現在販売中のケーキ</h2>
        <h3>ホールケーキ</h3>
          <img class="cake" src="cake.jpg" alt="イチゴのケーキです。">
