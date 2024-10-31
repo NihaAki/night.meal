@@ -8,7 +8,7 @@ outline: 0px;
 .header{
   display: block;
   margin: 0px;    
-  background: radial-gradient(#ff8400, #ffc07b, #ddefff,#66ddf6, #63b5fd, #0b8afb);
+  background: radial-gradient(#e5ff12, #ccffac, #d0ffd8,#66ddf6, #63b5fd, #0b8afb);
   width: 100%;
   position:fixed;
   margin-bottom:10px;   
