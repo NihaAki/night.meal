@@ -93,6 +93,21 @@ outline: 0px;
 
 .HrtbMenu{
 
+     overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  font-size: 15px;
+  font-weight: 900;
+  display: flex;
+  float: none;
+  text-align: center;
+  background-color: #92ff8d78;
+  padding: 5px;
+  justify-content:space-evenly;
+  list-style-type: none;
+  /* border-radius:30px; */
+  height: 60px;
+
 
 }
 
