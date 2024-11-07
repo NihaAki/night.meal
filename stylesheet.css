@@ -34,22 +34,7 @@ outline: 0px;
 
 /* ーーーーーーheader枠ーーーーーー */
 
-.header-logo{
-  display: block;
-  text-align: center;  
-  margin-top:20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2px;
-  font-size: 40px;
-  font-weight: 900;
-  color:#255225;
-  padding: 15px; 
-  padding-top:5px;
-  width:70%;
-  border-radius:40px;
-  height: 60px;      
-}
+
       
 .top_menu {
    overflow: hidden;
@@ -347,6 +332,23 @@ color: red;
         outline-offset: 8px;
         outline-style: dashed;
       }
+
+.header-logo{
+  display: block;
+  text-align: center;  
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+  font-size: 40px;
+  font-weight: 900;
+  color:#255225;
+  padding: 15px; 
+  padding-top:5px;
+  width:70%;
+  border-radius:40px;
+  height: 60px;      
+}
 
 /* ーーーーーーmemoーーーーーー */
 
