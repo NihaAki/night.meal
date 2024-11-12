@@ -338,7 +338,7 @@ color: red;
 .header-logo{
   display: block;
   text-align: center;  
-  margin-top:20px;
+  margin-top:0px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2px;
