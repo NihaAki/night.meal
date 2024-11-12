@@ -58,7 +58,7 @@ outline: 0px;
 
 .first{
   float: left; 
-  background-color: #ff6e6e;
+  background-color: #10a90c;
   padding:10px ;
   vertical-align: middle;
   width: auto;
@@ -67,7 +67,7 @@ outline: 0px;
 }
 
 .cat{      
-  background: linear-gradient(#feff0038, #ff7c3bb0);
+  background: linear-gradient(#ff9141);
 }
 
 .dog{
@@ -87,7 +87,7 @@ outline: 0px;
   display: flex;
   float: none;
   text-align: center;
-  background-color: #92ff8d78;
+  background-color: #7be2ff;
   padding: 5px;
   justify-content:space-evenly;
   list-style-type: none;
