@@ -56,22 +56,25 @@ outline: 0px;
   
 }
 
-.first{
-  float: left; 
-  background-color: #10a90c;
-  padding:10px ;
-  vertical-align: middle;
-  width: auto;
-  border-radius:20px;
-  height: 50spx;    
-}
-
 .cat{      
   background: linear-gradient(#ff9141);
 }
 
 .dog{
-  background: linear-gradient(#f51f1f8f, #f2ff0080);
+  background: linear-gradient(#ff8710);
+}
+
+
+
+
+
+.first{
+  float: left; 
+  padding:10px ;
+  vertical-align: middle;
+  width: auto;
+  border-radius:20px;
+  height: 50spx;    
 }
 
 
