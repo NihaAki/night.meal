@@ -11,7 +11,7 @@ outline: 0px;
   margin: 0px;    
   background: radial-gradient(#e5ff12, #ccffac, #d0ffd8,#66ddf6, #63b5fd, #0b8afb);
   width: 100%;
-  position:fixed;
+ position: sticky;
   margin-bottom:10px;   
   z-index: 1;
 }
@@ -21,6 +21,7 @@ outline: 0px;
   background: linear-gradient(#85b586,#85b586);
   height: auto;
   padding-bottom: 20px;
+  position: sticky;
 }      
 
 .footer{
