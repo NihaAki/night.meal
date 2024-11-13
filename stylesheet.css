@@ -57,16 +57,19 @@ outline: 0px;
 }
 
 .cat{      
-  background: linear-gradient(#ff9141);
+  background-color: #ff9141;
 }
 
 .dog{
-  background: linear-gradient(#ff8710);
+  background-color: #ff8710;
 }
 
+/*
+.cat{      
+  background: linear-gradient(#ff9141);
+}
 
-
-
+*/
 
 .first{
   float: left; 
