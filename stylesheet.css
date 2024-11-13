@@ -29,7 +29,8 @@ outline: 0px;
   font-size: small;
   background-color:lightgray;
   padding -bottom: 0px;
-  position:fixed;
+  position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
 }
 .basepadding{
   padding:20px;
