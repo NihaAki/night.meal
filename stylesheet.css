@@ -85,8 +85,10 @@ outline: 0px;
 }
 
 .bustime{
- backgrond-color: red;
-
+ color: red;
+padding:10px;
+  text-algin:center;
+  font-size:10px;
 }
 
 
