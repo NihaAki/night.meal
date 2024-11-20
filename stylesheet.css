@@ -32,11 +32,15 @@ outline: 0px;
   font-size: small;
   background-color:lightgray;
   padding -bottom: 0px;
-  position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
+  padding:20px;
+  width: auto;
+
+  
+ /* position: absolute;/*←絶対位置*/
+     /*bottom: 0; /*下に固定*/
 }
 .basepadding{
-  padding:20px;
+  
 }
 
 /* ーーーーーーheader枠ーーーーーー */
