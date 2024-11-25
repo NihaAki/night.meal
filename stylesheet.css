@@ -66,11 +66,11 @@ outline: 0px;
 }
 
 .cat{      
-  background-color: #ffd441;
+  background-color: #f1d6ff;
 }
 
 .dog{
-  background-color: #ff8710;
+  background-color: #f6ffa0;
 }
 
 .pig{      
@@ -78,10 +78,10 @@ outline: 0px;
 }
 
 .catt{
-  background-color: #ffe794;
+  background-color: #ffffff;
 }
 .dogg{
-  background-color: #ffb061;
+  background-color: #91ffac;
 }
 
 .bustime{
@@ -225,7 +225,7 @@ font-size:25px;
   text-align:center;
   color:#e91e63;
   padding:10px;
-  background: #e3f96f;
+  background: #ffc641;
 border-radius:15px;
   
 }
