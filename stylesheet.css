@@ -101,6 +101,7 @@ padding:10px;
   border-radius:15px;
       display: flex;
       justify-content: space-evenly;
+      font-weight: 900;
 }
 .bustimetitle{
  color: #da00ff;
