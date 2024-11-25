@@ -92,6 +92,21 @@ padding:10px;
   background-color: yellow;
 }
 
+.bustimeplus{
+ color: red;
+padding:10px;
+  text-align:center;
+  font-size:25px;
+  background-color: blue;
+}
+.bustimetitle{
+ color: red;
+padding:10px;
+  text-align:center;
+  font-size:25px;
+  background-color: green;
+}
+
 
 /*
 .cat{      
