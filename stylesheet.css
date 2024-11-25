@@ -218,9 +218,10 @@ font-size: 25px;
 .itemlist{
 font-size:10px;
   text-align:center;
-  color:red;
-
-
+  color:#e91e63;
+  padding:10px;
+  background: #e3f96f;
+border-radius:15px;
   
 }
 
