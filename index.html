@@ -1,31 +1,634 @@
-<HTML>
-    <HEAD>
+<!-- ・・・ToDoリスト・・・
+・classの名前をわかりやすいものに変更する。        ・cssの表記順番を決め、わかりやすくする。
+・html＆cssともに、縦軸を設定して合わせる。        ・データボックス？に接続して、使えるようにする。
+・パスワードを設定する。                          ・JAVAscriptを設定して、より面白くする。
+・hrad内に組み込めるベースを調べて、快適にさせる   ・もはや、web内にToDoリストを組み込んじゃう。 　-->
 
-<p>パークハイアット東京 SDS専用ページ</p>
-
-           <link rel="stylesheet" media="all" type="text/css" href="stylesheet.css">
+<!-- ここから下がメインコード-->
+<!DOCTYPE html>    <html lang="jp">
+    
+<head> 
+    <link rel="stylesheet" media="all" type="text/css" href="stylesheet.css">
     <meta name="viewprt" content="width.initial-scale=1">
     <script> $(function(){
         $('html,body').animate({ scrolltop:0}, '1';
 });</script>
 
-    <TITLE>SDS早見表</TITLE>
+    <title>PASDEL</title>
 
-        
-    </HEAD>
-    <BODY>
+</head>
 
-<A href="https://ja-jp.ecolab.com/sds-search">
- SDS エコラボ 検索画面
-</A>
-        <br>
-            <br>
-                <br>
-        
-<A href="https://assets.pim.ecolab.com/media/Original/10051/JP-JA-901903-ECOLARL%20E.pdf">
- SDS エコラボ  エコラール
-</A>
+<!-- bodyエリア    -->
+    
+<body style="margin:0px"> 
+    <div class=body>
+        <div class=header>
+            <div class=header-logo>
+                <a href="https://hyattregencytokyobay.jp/top/"target="_blanc">Hyatt Regency Tokyo Bay</a>
+            
+            </div>
+        </div>
+ <div class="main">
+                    
+            <div class="Time teacher">
+            <marquee scrollamount="13" ><div class="BBB"><p> 今日は<span id="currentDate"></span>です。 使用したい項目を選択してください。 </p></div></marquee>
+            </div>
+            
+            <details open> <!--"class=header"-->
+            <summary class=hover-sample >メインメニュー</summary>
+               
+                    <div class="top_menu">
+                        <div class="first pig"><a href="https://hyattregencytokyobay.jp/top/"target="_blank">Hyatt Regency<br>Tokyo Bay</a></div>
+                        <div class="first pig"><a href="https://hyattregencytokyobay.jp/top/restaurant/thegardenbrasserie_bar.html" target="_blank">The Garden</a></div>
+                        <div class="first pig"><a href="https://hyattregencytokyobay.jp/top/restaurant/rooftopbar.html" target="_blank">Roof top & GardenBar</a></div>
+                        <div class="first pig"><a href="https://fukitei.com/" target="_blank">鉄板焼 富貴亭</a></div>
+                        <div class="first pig"><a href="https://sushi-ema.com/" target="_blank">すし絵馬</a></div>
+                    </div>
+            </details>
+<!--
+<div class="container">
+  <header class="header1">header</header>
 
+  <div class="content">
+    <div class="main1">main</div>
+    <div class="side">ついてくる</div>
+  </div>
+
+  <footer class="footer1">footer</footer>
+</div>
+     
+    -->   
+                 <div class="bustime">
+                      <div class="bustimetitle" style="margin:0px"> <p>HRTB発の時刻表</p></div><hr>
+                    <div class="bustimeplus">
+                        <a href="https://hyattregencytokyobay.jp/top/access/pdf/bus_timetable_01.pdf?20250106" target="_blank">2025年1月</a>
+                         <a href="https://hyattregencytokyobay.jp/top/access/pdf/bus_timetable_02.pdf?20250106" target="_blank">2025年2月</a>
+                        <a href="https://hyattregencytokyobay.jp/top/access/pdf/bus_timetable_03.pdf?20250106" target="_blank">2025年3月</a>
+                    </div>
+                </div>
+                    
+                 
+                        <ul class="main_menu">
+                            <div class="world"><a href="https://manager.app.tablecheck.com" target="_blank">予約の管理（Table Check Management）</a></div><hr>
+                            <div class="world"><a href="https://restaurant.ikyu.com/rsOwner/login" target="_blank">一休管理画面</a></div><hr>
+                            <div class="world"><a href="https://www.ozmall.co.jp/restaurantweb_client/Login.aspx" target="_blank">OZmall レストラン管理</a></div><hr>
+                            <div class="world"><a href="https://hq.hero-cloud.com/accounts/hyatt/eng/user/users/login" target="_blank">INFRASYS</a></div><hr>
+                            <div class="world"><a href="https://www.hyattconnect.com/" target="_blank">Hyatt Connect</a></div>
+                        </ul>
+                                     <!--↓ここからはインフォメーションエリア↓-->
+                       <div class="itemlist"><a>Garden</a></div><br> <div class ="HrtbMenu">
+                            <div class="first dogg"><a href="The_Garden_Lunch_2024_11_01.pdf" target="_blank">Garden<br>Lunch Menu</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Tea_2024_11_01.pdf"target="_blank">Garden<br>Tea Time Menu</a></div><br>
+                            <div class="first dogg"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">ガーデン ワインリスト</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">Garden<br>Dinner Menu</a></div>
+                        </div><hr>
+
+                       <div class="itemlist"><a>富貴亭</a></div><br> <div class ="HrtbMenu">
+                            <div class="first cat"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">富貴亭 ランチ</a></div><br>
+                            <div class="first dog"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">富貴亭 ディナー</a></div>
+                        </div><hr>
+
+                      <div class="itemlist"><a>絵馬</a></div><br>  <div class ="HrtbMenu">
+                            <div class="first dogg"><a href="The_Garden_Lunch_2024_11_01.pdf" target="_blank">絵馬 ランチ</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Tea_2024_11_01.pdf"target="_blank">絵馬 ディナー</a></div><br>
+                           
+                        </div><hr>
+
+                      <div class="itemlist"><a>Roof Top Bar</a></div><br>  <div class ="HrtbMenu">
+                            <div class="first cat"><a href="The_Garden_Lunch_2024_11_01.pdf" target="_blank">Bar Menu</a></div><br>
+                            <div class="first dog"><a href="The_Garden_Tea_2024_11_01.pdf"target="_blank">ガーデン ティータイムメニュー</a></div><br>
+                            <div class="first cat"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">ガーデン ワインリスト</a></div><br>
+                            <div class="first dog"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">ガーデン ディナーメニュー</a></div>
+                        </div><hr>
+
+                        <div class="itemlist"><a>イベント</a></div><br> <div class ="HrtbMenu">
+                            <div class="first dogg"><a href="The_Garden_Lunch_2024_11_01.pdf" target="_blank">ガーデン ランチメニュー</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Tea_2024_11_01.pdf"target="_blank">ガーデン ティータイムメニュー</a></div><br>
+                            <div class="first dogg"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">ガーデン ワインリスト</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">ガーデン ディナーメニュー</a></div>
+                        </div><hr>
+
+                      <div class="itemlist"><a>その他</a></a></div><br>  <div class ="HrtbMenu">
+                            <div class="first cat"><a href="https://hyattregencytokyobay.jp/top/news/66000" target="_blank">UIクリスマスリース作成2024</a></div><br>
+                            <div class="first dog"><a href="https://hyattregencytokyobay.jp/top/news/68880"target="_blank">クリスマスディナー</a></div><br>
+                            <div class="first cat"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">ガーデン ワインリスト</a></div><br>
+                            <div class="first dog"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">ガーデン ディナーメニュー</a></div>
+                        </div>
+
+                        <div class ="HrtbMenu">
+                            <div class="first dogg"><a href="The_Garden_Lunch_2024_11_01.pdf" target="_blank">ガーデン ランチメニュー</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Tea_2024_11_01.pdf"target="_blank">ガーデン ティータイムメニュー</a></div><br>
+                            <div class="first dogg"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">ガーデン ワインリスト</a></div><br>
+                            <div class="first catt"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">ガーデン ディナーメニュー</a></div>
+                        </div>
+
+                        <div class ="HrtbMenu">
+                            <div class="first cat"><a href="The_Garden_Lunch_2024_11_01.pdf" target="_blank">ガーデン ランチメニュー</a></div><br>
+                            <div class="first dog"><a href="The_Garden_Tea_2024_11_01.pdf"target="_blank">ガーデン ティータイムメニュー</a></div><br>
+                            <div class="first cat"><a href="The_Garden_Winelist_2024_11_01.pdf"target="_blank">ガーデン ワインリスト</a></div><br>
+                            <div class="first dog"><a href="The_Garden_Dinner_2024_11_01.pdf"target="_blank">ガーデン ディナーメニュー</a></div>
+                        </div>
+                        </div></div>
+<!-- footer system -->
+    <div class="footer">
+
+       <li>購入データを記録するときは必ず保存をするようにお願いいたします。</li>
+        <li>データの消去をする場合は、別の画面から申請が必要となります。</li>
+         <li>入力したデータを更新したい場合は<a href="https://www.yahoo.co.jp" target="_blank">こちら</a>を押してください。</li>
+    </div>
+
+<!-- ここから下は非表示欄-->
+
+                        
+<!--
+    <details>
+    <summary><h5 text-align: center; > ペストリーブティックのメニュー</h5></summary><br>
+         <div class="details-content">
+       <div class="scroll">
+                 <span> 
+ ペストリーブティックの商品 
+    <table class="pbqitem" border="1" width="90%" >
+    <tr><td colspan="3">PASTRY BOUTIQUE CUT CAKE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>苺とピスタチオのタルト</td>
+        <td>STRAWBERRY PISTACHIO TART</td>
+        <td>¥820</td></tr>
+    <tr><td>トンカ豆とフロマージュブランのタルト</td>
+        <td>TONKA BEAN FROMAGE BLANC TART</td>
+        <td>¥860</td></tr>
+    <tr><td>苺のショートケーキ</td>
+        <td>PARK HYATT STRAWBERRY SHORTCAKE</td>
+        <td>¥880</td></tr>
+    <tr><td>バニラフラン</td>
+        <td>FLAN VANILLA</td>
+        <td>¥920</td></tr> 
+    <tr><td>タルトサントノーレ</td>
+        <td>SAINT HONORÉ TART</td>
+        <td>¥920</td></tr> 
+    <tr><td>マロンブルーベリー</td>
+        <td>RAINBOW CHESTNUT BLUEBERRY</td>
+        <td>¥920</td></tr> 
+    <tr><td>ピンクエクレア </td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>ローズケーキ <br>(ジャスミンティー、ラズベリー)</td>
+        <td>ROSE CAKE<br>(JASMIN TEA, RASPBERRY) </td>
+        <td>¥920</td></tr>
+    <tr><td>栗と梨のケーキ  </td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+    <tr><td>シトラスタルト </td>
+      <td>CITRUS TART</td>
+      <td>¥980</td></tr>
+    <tr><td>シャルロット <br>(バニラ、ストロベリー)</td>
+        <td>CHARLOTTE<br>(VANILLA, STRAWBERRY) </td>
+        <td>¥980</td></tr>    
+    <tr><td>苺のチーズケーキ</td>
+        <td>STRAWBERRY CHEESE CAKE </td>
+        <td>¥980</td></tr>
+    <tr><td>ルーツ オブ ラブ<br>(ラズベリー、フロマージュブラン、ビーツ)</td>
+        <td>ROOTS OF LOVE<br>(RASPBERRY, FROMAGE BLANC, BEETROOT)</td>
+        <td>¥1,080</td></tr></table><br>
+             
+  <table class="pbqitem" border="1" width="90%" >
+    <tr><td colspan="3">PASTRY BOUTIQUE WHOLE CAKE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>苺のチーズケーキ 12cm</td>
+        <td>STRAWBERRY CHEESE CAKE</td>
+        <td>¥4,200</td></tr>
+    <tr><td>ベリーレイヤー  12cm</td>
+        <td>BERRIES LAYERS</td>
+        <td>¥4,200</td></tr>
+    <tr><td>苺のショートケーキ 12cm</td>
+        <td>STRAWBERRY SHORTCAKE</td>
+        <td>¥4,200</td></tr>
+    <tr><td>ベリーシャルロット 12cm</td>
+        <td>BERRIES CHARLOTTE</td>
+        <td>¥4,200</td></tr>
+    <tr><td>ルーツ オブ ラブ 13cm<br> (ラズベリー、フロマージュブラン、ビーツ)</td>
+        <td>ROOTS OF LOVE<br>(RASPBERRY, FROMAGE BLANC, BEETROOT)</td>
+        <td>¥5,200</td></tr>
+    <tr><td>フラゴーラ 14cm<br> （ストロベリー、柚子）</td>
+        <td>FRAGOLA<br>(STRAWBERRY, YUZU)</td>
+        <td>¥6,800</td></tr>  
+      </table><br>
+
+        <table class="pbqitem" border="1" width="90%" ><tr>
+        <td colspan="3">PASTRY BOUTIQUE BREAD</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+     <tr><td>クロワッサン ディシニー ピュアバター</td>
+        <td>CROISSANT PUR BEURRE D'ISIGNY</td>
+        <td>¥390</td></tr>
+     <tr><td>苺とチョコレートのブリオッシュ </td>
+        <td>STRAWBERRY CHOCOLATE BRIOCHE</td>
+        <td>¥420</td></tr>
+     <tr><td>パン オ ショコラ ヴァローナ</td>
+        <td>PAIN AU CHOCOLAT VALRHONA</td>
+        <td>¥420</td></tr>
+     <tr><td>アーモンドクロワッサン</td>
+        <td>ALMOND CROISSANT</td>
+        <td>¥420</td></tr>
+     <tr><td>ブリオッシュフィユテピンクプラリネ </td>
+        <td>BRIOCHE FEUILLETEE PINK PRALINE</td>
+        <td>¥500</td></tr>
+     <tr><td>キノコのフォカッチャ</td>
+        <td>MUSHROOM FOCACCIA</td>
+        <td>¥500</td></tr>
+     <tr><td>ニューヨークグリル サワードゥーブレッド </td>
+        <td>NEW YORK GRILL SOURDOUGH </td>
+        <td>¥540</td></tr>
+     <tr><td>パン ド ミ </td>
+        <td>PAIN DE MIE</td>
+        <td>¥570</td></tr>    
+     <tr><td>ブリオッシュ ガッシュ ヴァンデーヌ</td>
+        <td>BRIOCHE GACHE VENDÉENE</td>
+        <td>¥580</td></tr>
+     <tr><td>苺のデニッシュ</td>
+        <td>STRAWBERRY DANISH</td>
+        <td>¥680</td></tr>
+     <tr><td>苺のサワードゥブレッド</td>
+        <td>STRAWBERRY SOURDOUGH BREAD </td>
+        <td>¥700</td></tr>
+     <tr><td>シリアルブレッド</td>
+        <td>CEREAL BREAD</td>
+        <td>¥800</td></tr>
+     <tr><td>モンブラン クロワッサン</td>
+        <td>MONT BLANC CROISSANT</td>
+        <td>¥980</td></tr>
+      <tr><td>ブリオッシュブレッサン</td>
+        <td>BRIOCHE BRESSANE</td>
+        <td>¥980</td></tr>
+     <tr><td>バブカ プラリネ チョコレート</td>
+        <td>BABKA PRALINE CHOCOLATE </td>
+        <td>¥1,200</td></tr>      
+      <tr><td>ブリオッシュフィユテ柚子ほうじ茶</td>
+        <td>BRIOCHE FEUILLETEE YUZU ROASTED TEA</td>
+        <td>¥1,500</td></tr></div></table></details></span></div> 
+    <details>
+-->
+    <!--
+        <summary> <h5 text-align: center; > デリカテッセンのメニュー</h5></summary><br>
+         <div class="details-content">
+ デリカテッセンの商品 
+    <table class="deliitem" border="1" width="90%" >
+    <tr><td colspan="3">DELICATESSEN JUICE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>フレッシュグリーンデトックスジュース ほうれん草 胡瓜 セロリ リンゴ グレープフルーツ　生姜</td>
+        <td>Fresh green detox juice, spinach, cucumber, celery, apple, grapefruit, ginger </td>
+        <td>¥933</td></tr></table><br>
+
+        <table class="deliitem" border="1" width="90%" >
+    <tr><td colspan="3">DELICATESSEN SALAD</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>コブサラダ ASCバナメイ海老 鶏胸肉 アボカド ゴルゴンゾーラ コブドレッシング</td>
+        <td>TONKA BEAN FROMAGE BLANC TART</td>
+        <td>¥860</td></tr>
+     <tr><td>シーザーサラダ パルミジャーノ レジャーノ スモークベーコン</td>
+        <td>TONKA BEAN FROMAGE BLANC TART</td>
+        <td>¥860</td></tr>        
+    <tr><td>スモークサーモンと焼き蕪のサラダ 昆布ドレッシング</td>
+        <td>PARK HYATT STRAWBERRY SHORTCAKE</td>
+        <td>¥880</td></tr></table><br>
+
+            <table class="deliitem" border="1" width="90%" >
+    <tr><td colspan="3">DELICATESSEN APPETISERS</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>メープルローストパンプキンと自家製リコッタチーズのキッシュ</td>
+        <td>FLAN VANILLA</td>
+        <td>¥920</td></tr>
+    <tr><td>マカロニとチーズのグラタン ジャンボマッシュルーム ベーコン</td>
+        <td>SAINT HONORÉ TART</td>
+        <td>¥920</td></tr>
+    <tr><td>アッシェパルマンティエ 牛肩肉のブレゼ マッシュドポテト</td>
+        <td>RAINBOW CHESTNUT BLUEBERRY</td>
+        <td>¥920</td></tr></table><br>
+
+                <table class="deliitem" border="1" width="90%" >
+    <tr><td colspan="3">DELICATESSEN ASIAN SELECTION</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>デリロール 漬けマグロのタルタル アボカド</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>ビーフカレー</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr></table><br>
         
-    </BODY>
-</HTML>  
+     <table class="deliitem" border="1" width="90%" >
+     <tr><td colspan="3">DELICATESSEN SANDWICH</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>全粒粉ブレッド チキンブレスト トマト 卵 ベーコン</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>天然酵母パン フムス キャロットラペ アボカド</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>クロワッサン ボロニアソーセージ ゴーダチーズ トマト フリルレタス</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>バゲット ジャンボンハム エメンタール</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>バゲット 自家製ポークパテ モッツァレラ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>クリスタルブレッドピッツァ ASCバナメイ海老 ブロッコリー ロブスターマヨネーズ</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>     </table><br>
+        
+     <table class="deliitem" border="1" width="90%" >
+     <tr><td colspan="3">DELICATESSEN BREAD</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>プティバゲット</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>バゲット</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr></table><br>
+        
+ <table class="deliitem" border="1" width="90%" >
+        <tr><td colspan="3">DELICATESSEN OKIVE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>グリーンオリーブ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>大粒グリーンオリーブ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>ブラックオリーブ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>    
+    <tr><td>セミドライトマト</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr></table><br>
+    
+    <table class="deliitem" border="1" width="90%" > 
+ <tr><td colspan="3">DELICATESSEN CHEESE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>ブリー</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>ゴルゴンゾーラ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>パルミジャーノ レジャーノ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr></table><br>
+        
+     <table class="deliitem" border="1" width="90%" >
+      <tr><td colspan="3">DELICATESSEN CHARCUTERIE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>ボロニアソーセージ (スライス)</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>ハモンセラーノ</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>ジャンボンハム</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>ポークリエット</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>サーモンリエット</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>シュリンプペースト</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>     </table><br>
+
+        <table class="deliitem" border="1" width="90%" > 
+     <tr><td colspan="3">DELICATESSEN CHARCUTERIE</td></tr>
+    <tr><th>商品名</th>
+        <th>Item</th>
+        <th>金額（8%)</th></tr>
+    <tr><td>パイナップルのパンナコッタ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>マンゴーロールケーキ</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>キャラメルバナナシュークリーム</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>アップルパイ</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>和栗のタルト</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+        <tr><td>バニラパンナコッタ　みかんゼリー</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>
+      <tr><td>チョコレートと洋梨のママレードケーキ</td>
+        <td>PINK ÉCLAIR</td>
+        <td>¥920</td></tr>
+    <tr><td>フルーツサラダ</td>
+        <td>CHESTNUT PEAR CAKECHESTNUT PEAR CAKE</td>
+        <td>¥980</td></tr>     </table></div>
+    
+    </details>
+-->
+
+<!--
+    
+<details>
+    <summary><h5 text-align: center;> メニュー開閉のテスト枠</h5></summary>
+<li>111111111</li>
+<li>22222222222</li>
+   <details><sammary>2重の扉</sammary> 
+        <li>333333333333333</li>
+        <li>44444444444444</li>
+            <details><sammary>3重の扉</sammary>
+                <li>77777777777777</li>
+                <li>8888888888888</li></details>
+                <li>555555555555</li></details>
+                <li>66666666666</li></details><br><br>
+    <details>
+      <summary>クリックして表示</summary>
+          <div class="details-content">
+            <p>詳細コンテンツ</p>
+            <p>詳細コンテンツ</p>
+            <p>詳細コンテンツ</p></div></details><br><br>
+
+-->
+<!--    
+    <details>
+    
+        </div>
+
+  
+ <div class="materbox1">
+      <div class="outmater">
+        <div class="inmater"><span class="change_per">50%</span></div>
+      </div>
+    <p style="color: tomato; background-color: white; padding: 7px; position: relative; width: fit-content;
+      margin: 0 auto;">＊幅調節バー＊</p>
+      <input class="width_change1" type="range" name="" value="50"><br>
+      <input class="width_change1" type="range" name="" value="50"><br>
+      <input class="width_change1" type="range" name="" value="50"><br>
+      <input class="width_change1" type="range" name="" value="50"><br>
+      <div class="outmater">
+        <div class="inmater2"><span class="change_per2">50%</span></div>
+      </div>
+    </div>
+    <script type="text/javascript" defer>
+      {
+        const inmater = document.querySelector('.inmater');
+        const inmater2 = document.querySelector('.inmater2');
+
+        const width_change = document.querySelector('.width_change1');
+        const change_per = document.querySelector('.change_per');
+        const change_per2 = document.querySelector('.change_per2');
+
+        let changeWidth = 0;
+
+        width_change.addEventListener('input', () => {
+          changeWidth = event.target.value;
+          inmater.style.width = changeWidth + '%';
+          inmater2.style.width = changeWidth + '%';
+
+          change_per2.textContent = change_per.textContent = `${changeWidth}` + '%';
+
+          if (changeWidth >= 80) {
+            change_per.textContent = '80%';
+          }
+          else {
+            change_per.textContent = change_per.textContent = `${changeWidth}` + '%';
+          }
+          if (changeWidth > 98 ) {
+            inmater2.style.borderRadius = '17px';
+          }
+          else {
+            inmater2.style.borderRadius = '17px 0 0 17px';
+          }
+        });
+      }
+    </script>
+-->
+<!--
+
+    
+   <h2>現在販売中のケーキ</h2>
+       <h3>ホールケーキ</h3>
+         <img class="cake" src="cake.jpg" alt="イチゴのケーキです。">
+         <img class="cake" src="short cake.jpg">
+         <img class="cake" src="short cake.jpg">
+        
+         <img class="cake" src="short cake.jpg">
+         <hr>   
+         <h3>ランチボックス</h3>
+         <img class="cake" src="LUNCH BOX-S.jpg">
+         <img class="cake" src="LUNCH BOX-M.jpg">
+         <img class="cake" src="LUNCH BOX-L.jpg">
+         <img class="cake" src="PREMIUM DELI LUNCH-1.jpg">
+         <hr>
+         <h3>受注用ケーキ</h3>
+         <img class="cake" src="short cake.jpg">
+         <img class="cake" src="short cake.jpg">
+         <img class="cake" src="short cake.jpg">
+         <img class="cake" src="short cake.jpg"> 
+-->
+    <!--
+    <div class="sotoyada">
+            <p><a href="https://developer.mozilla.org/ja/docs/Web" target="_blank">MDN homepage</a></p>
+            <p></p>
+            <p><a href="rooms-team.pdf">pdf</a></p>
+            <p></p>
+        </div>
+        
+<div class="basepadding">
+        
+ <h1>月末ジョブに<SPAN>関する</SPAN>資料</h1></font>
+            <p>熨斗のマニュアル</p>
+
+
+<h2><font color="#0000ff">sample1</h2></font>
+         <p><font text-align: center;>ファイル１</font></p>
+         <ul style="padding-left: 0px"><font>    
+        <div class="abc">ファイル２</div>
+
+          <div>
+
+         <div class="contact-form">
+            <h4 class="section-title">お問い合わせ</h4>
+            <p>メールアドレス</p>
+            <input>
+
+            <p>お問い合わせ内容</p>
+            <textarea style="width: 900px; height: 100px;"></textarea>
+
+            <p>入力してください</p>
+            <input class="contact-submit" type="submit" value="">
+            </div>
+         </div>
+-->
+             
+<!--
+              <ul class="second_menu">
+        <div class="bonbon"><a href="https://manager.app.tablecheck.com" target="_blank">予約の管理（Table Check Management）</a></div><hr>
+        <div class="bonbon"><a href="https://pay.veritrans.co.jp/maps/" target="_blank">ベリトランス</a></div><hr>
+        <div class="bonbon"><a href="https://hq.hero-cloud.com/accounts/hyatt/eng/user/users/login" target="_blank">INFRASYS</a></div><hr>
+        <div class="bonbon"><a href="http://10.87.177.37/hero/eng/user/users/login" target="_blank">INFRASYS(LOCAL)</a></div><hr>
+        <div class="bonbon"><a href="https://app01.birchstreetsystems.com/HyattAsia.html" target="_blank">BIRCH STREET HYATT</a></div><hr>
+         <div class="bonbon"><a href="https://nma.tanomail.com/r/ma/p-hyatt/logingateway.aspx" target="_blank">たのめーる</a></div><hr>
+        <div class="bonbon"><a href="https://tools.hyatt.com" target="_blank">LPを調べる(Tools)</a></div>
+    </ul>
+    -->        
+        <!--
+
+         <div class="time">この段落を作ることに意味がある</div>
+        <input style="border: 2px;">これは有効なのか>
+            <h3>sample2</h3>
+            <p>三つ目の段落です</p>
+            <p>三つ目の段落です</p>
+            コメントをはさんだりしちゃって
+
+                <h4>これを編集していこう</h4>
+                <P><a href="https://www.GOOGLE.com">GOOGLE</a></P>
+                <P><a href="https://www.yahoo.co.jp/">yahoo</a></P>
+                <P><a href="HomePage.html">ホームページへ</a></P>
+                <P><A HREF="https://nihaaki.github.io/night.meal.github.io/">
+                    これはこのページへの繰り返し！</A></P>
+        
+      
+         <IMG SRC="sample1.JPG"> 
+                
+       <p><font color_"#82ee32">インターネットにつながっているか<br>
+            確認しよう！</font></p>
+         </div>
+             -->
+  
+
+         </font>
+         </ul>
+    
+        
+    </div>
+<script src="app.js"></script>
+         
+</body>
+</html>
