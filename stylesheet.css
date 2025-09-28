@@ -89,7 +89,7 @@ outline: 0px;
 padding:10px;
   text-align:center;
   font-size:25px;
-  background-color: #ff7171;
+  background-color: #0062ff66;
 }
 
 .bustimeplus{
@@ -97,17 +97,17 @@ padding:10px;
 padding:10px;
   text-align:center;
   font-size:25px;
-  background-color: #76ff92;
+  background-color: #beff76;
   border-radius:15px;
       display: flex;
       justify-content: space-evenly;
       font-weight: 900;
 }
 .bustimetitle{
- color: #da00ff;
+ color: #6700ff;
 padding:2px;
   text-align:center;
-  background-color: #ecedf9;
+  background-color: #ffabde;
       font-weight: 900;
   border-radius:15px;
 }
@@ -203,7 +203,7 @@ padding:2px;
 }
 
 .BBB{
-background-color: #ff7d95;
+background-color: #7dff81;
 text-align: center;
       position: fixed;
 font-weight: 800;
