@@ -98,9 +98,9 @@ padding:10px;
 
 .bustimeplus{
  color: red;
-padding:10px;
+padding:1px;
   text-align:center;
-  font-size:25px;
+  font-size:29px;
   background-color: #beff76;
   border-radius:15px;
       display: flex;
@@ -109,7 +109,7 @@ padding:10px;
 }
 .bustimetitle{
  color: #6700ff;
-padding:2px;
+padding:0px;
   text-align:center;
   background-color: #ffabde;
       font-weight: 900;
