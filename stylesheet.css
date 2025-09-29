@@ -45,7 +45,10 @@ outline: 0px;
 
 /* ーーーーーーheader枠ーーーーーー */
 
+.vegetable{
+background-color: red;
 
+}
       
 .top_menu {
    overflow: hidden;
