@@ -198,7 +198,7 @@ padding:2px;
   /* border-radius:30px; */
   height: 60px;
 }
-.Tiem teacher{
+.Time_teacher{
 
   padding:0px;
 
@@ -209,11 +209,11 @@ padding:2px;
 .BBB{
 background-color: #7dff81;
 text-align: center;
-  
 font-weight: 800;
-font-size: 25px;
-  border-radius:10px;
-  padding-top:55px;
+font-size: 03px;
+border-radius:22px;
+padding: 0px;
+  color: #f62626;
 }
 
 .main_menu{        
